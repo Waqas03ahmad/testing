@@ -17,7 +17,7 @@ class TeachersTableSeeder extends Seeder
     {
         $faker = Faker::create();
         $batchSize = 1000; // Number of records per insert
-        $totalRecords = 10000000; // 10 million records
+        $totalRecords = 10000; // 10 million records
 
         $chunks = ceil($totalRecords / $batchSize); // Number of batches
 
